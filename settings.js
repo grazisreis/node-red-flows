@@ -3,8 +3,8 @@ module.exports = {
     credentialSecret: process.env.NODE_RED_CREDENTIAL_SECRET || "helios2024",
 
     flowFile: "flows.json",
-    uiPort: process.env.PORT || 10000,
-
+    uiPort: process.env.PORT || 1880,
+    
     diagnostics: {
         enabled: true,
         ui: true,
