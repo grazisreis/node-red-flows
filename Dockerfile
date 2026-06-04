@@ -19,5 +19,5 @@ RUN echo '{"43bcb9a105cc404a":{"user":"heliosdatahub","password":"Helios123"}}' 
 COPY settings.js /data/settings.js
 
 USER node-red
-EXPOSE 10000
-CMD ["node-red", "--port", "10000", "--userDir", "/data"]
+EXPOSE 1880
+CMD ["node-red", "--userDir", "/data"]
