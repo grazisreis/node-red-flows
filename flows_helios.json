@@ -261,7 +261,7 @@
         "broker": "927b3807210e42b58c0f2945551d4d2d.s1.eu.hivemq.cloud",
         "port": "8883",
         "tls": "",
-        "clientid": "NodeRed_Helios_Graziella",
+        "clientid": "",
         "autoConnect": true,
         "usetls": true,
         "protocolVersion": 4,
